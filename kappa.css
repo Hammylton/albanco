@@ -1,0 +1,171 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Vujahday+Script&display=swap");
+
+/* Reset + grundfärg */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  overflow-y: scroll;
+}
+
+body {
+  background-color: #faf3e0;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Globala textstilar */
+li,
+a,
+button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #512520;
+  text-decoration: none;
+}
+
+/* Header + Navigation */
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 8%;
+  background-color: #f1e1c7; /* lite starkare än bakgrundsfärgen */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* lätt skugga för djup */
+}
+
+.logo {
+  width: 150px;
+  cursor: pointer;
+}
+
+.nav__links {
+  list-style: none;
+}
+
+.nav__links li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.nav__links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+  color: #6b8e23;
+}
+
+/* Knapp */
+button {
+  padding: 9px 37px;
+  background-color: rgb(247, 208, 111);
+  color: #512520;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover {
+  background-color: rgba(107, 142, 35, 0.8);
+}
+
+/* Innehåll */
+.main {
+  text-align: center;
+}
+
+h1 {
+  font-weight: 350;
+  font-size: 32px;
+  color: #c14d36;
+  margin-bottom: 0px;
+  margin-top: 40px;
+}
+
+.intro {
+  margin-top: 00px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #782d1e;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* menu.html – menysektion */
+.menu-wrapper {
+  background-color: #f3e6d2;
+  padding: 50px 7%;
+  margin: 40px auto;
+  max-width: 700px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.menu-wrapper h2 {
+  color: #c14d36;
+  font-size: 30px;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.menu-item {
+  margin-bottom: 28px;
+  border-bottom: 1px solid #e6d6bc;
+  padding-bottom: 18px;
+}
+
+.item-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.item-row h3 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #512520;
+  margin: 0;
+}
+
+.price {
+  font-weight: 500;
+  color: #6b8e23;
+  font-size: 16px;
+}
+
+.menu-item p {
+  font-size: 14px;
+  color: #884b3c;
+  font-style: italic;
+  margin-top: 6px;
+}
+
+.active {
+  border-bottom: 2px solid #512520;
+}
+
+main h2 {
+  color: #c14d36;
+  font-size: 30px;
+  font-weight: 350;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.intro2 {
+  color: #782d1e;
+  font-size: 16px;
+  line-height: 1.6;
+}
